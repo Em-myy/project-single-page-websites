@@ -1,0 +1,261 @@
+body{
+	margin: 0;
+}
+
+#firstImage{
+	width: 500px;
+	height: 560px;
+}
+
+#firstBody{
+	background-color: white;
+	height: 100px;
+	width: 500px;
+	position: absolute;
+	top: 50px;
+	left: 400px;
+}
+
+#secondImage{
+	position: relative;
+	height: 80px;
+	width: 150px;
+	top: 10px;
+}
+
+#firstHeader{
+	position: absolute;
+	bottom: 30px;
+	text-transform: capitalize;
+	left: 150px;
+}
+
+#secondHeader{
+	position: absolute;
+	top: 30px;
+	left: 150px;
+	text-transform: capitalize;
+}
+
+#secondBody{
+	background-color: black;
+	height: 50px;
+	width: 200px;
+	position: absolute;
+	bottom: 0px;
+}
+
+#thirdHeader{
+	position: absolute;
+	color: white;
+	bottom: 5px;
+	left: 20px;
+}
+
+#fourthHeader{
+	position: absolute;
+	color: white;
+	margin-top: 20px;
+	left: 20px;
+}
+
+#thirdImage{
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	top: 150px;
+	left: 520px;
+}
+
+#firstParagraph{
+	position: absolute;
+	top: 142px;
+	left: 560px;
+	text-transform: uppercase;
+	font-size: 10px;
+	font-family: Arial Black, Gadget, sans-serif;
+}
+
+#secondParagraph{
+	position: absolute;
+	top: 155px;
+	left: 560px;
+	font-size: 10px;
+	font-family: Arial Black, Gadget, sans-serif;
+	color: #f3ca0a;
+}
+
+#fourthImage{
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	top: 150px;
+	left: 670px;
+}
+
+#thirdParagraph{
+	position: absolute;
+	top: 142px;
+	left: 710px;
+	text-transform: uppercase;
+	font-size: 10px;
+	font-family: Arial Black, Gadget, sans-serif;
+}
+
+#fourthParagraph{
+	position: absolute;
+	top: 155px;
+	left: 710px;
+	font-size: 10px;
+	font-family: Arial Black, Gadget, sans-serif;
+	color: #f3ca0a;
+}
+
+#fifthImage{
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	top: 150px;
+	left: 820px;
+}
+
+#fifthParagraph{
+	position: absolute;
+	top: 142px;
+	left: 860px;
+	text-transform: uppercase;
+	font-size: 10px;
+	font-family: Arial Black, Gadget, sans-serif;
+}
+
+#sixthParagraph{
+	position: absolute;
+	top: 155px;
+	left: 860px;
+	font-size: 10px;
+	font-family: Arial Black, Gadget, sans-serif;
+	color: #f3ca0a;
+}
+
+#seventhParagraph{
+	position: absolute;
+	left: 520px;
+	top: 180px;
+	font-style: italic;
+	font-family: Georgia, serif;
+}
+
+#eighthParagraph{
+	position: absolute;
+	left: 520px;
+	top: 200px;
+	font-style: italic;
+	font-family: Georgia, serif;
+}
+
+#fifthHeader{
+	position: absolute;
+	left: 520px;
+	top: 230px;
+	text-transform: uppercase;
+}
+
+#firstLabel{
+	position: absolute;
+	left: 550px;
+	top: 280px;
+	cursor: pointer;
+}
+
+#firstCheckbox{
+	position: absolute;
+	left: 520px;
+	top: 280px;
+	cursor: pointer;
+}
+
+#secondLabel{
+	position: absolute;
+	left: 550px;
+	top: 300px;
+	cursor: pointer;
+}
+
+#secondCheckbox{
+	position: absolute;
+	left: 520px;
+	top: 300px;
+	cursor: pointer;
+}
+
+#thirdLabel{
+	position: absolute;
+	left: 550px;
+	top: 320px;
+	cursor: pointer;
+}
+
+#thirdCheckbox{
+	position: absolute;
+	left: 520px;
+	top: 320px;
+	cursor: pointer;
+}
+
+#fourthLabel{
+	position: absolute;
+	left: 550px;
+	top: 340px;
+	cursor: pointer;
+}
+
+#fourthCheckbox{
+	position: absolute;
+	left: 520px;
+	top: 340px;
+	cursor: pointer;
+}
+
+#sixthHeader{
+	position: absolute;
+	left: 520px;
+	top: 370px;
+	text-transform: uppercase;
+}
+
+#myList{
+	position: absolute;
+	left: 500px;
+	top: 400px;
+}
+
+#firstList{
+	margin-bottom: 5px;
+}
+
+#secondList{
+	margin-bottom: 5px;
+}
+
+#thirdList{
+	margin-bottom: 5px;
+}
+
+#fourthList{
+	margin-bottom: 5px;
+}
+
+#fifthList{
+	margin-bottom: 5px;
+}
+
+#sixthList{
+	margin-bottom: 5px;
+}
+
+
+
+
+
+
+

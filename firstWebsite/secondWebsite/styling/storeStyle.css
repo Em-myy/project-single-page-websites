@@ -1,0 +1,188 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #d9d6d7;
+	margin: 0;
+}
+
+#container1{
+	background-color: #191733;
+	color: white;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	border-bottom: 3px solid #970519;
+}
+
+#subContainer1{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-top: 15px;
+}
+
+#headerList{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+	color: #970519;
+}
+
+#firstLink {
+	color: #970519;
+}
+
+#mainHeader{
+	margin-left: 50px;
+}
+
+#spanHeader{
+	color: #970519;
+}
+
+#showcase{
+	background-image: url("../images/showcase.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	background-position: bottom;
+	min-height: 300px;
+}
+
+#showcaseContainer {
+	display: grid;
+	text-align: center;
+	min-height: 200px;
+}
+
+#showcaseHeader{
+	font-size: 60px;
+	color: #4e4e4e;
+	font-weight: bold;
+}
+
+#showcaseParagraph{
+	font-size: 20px;
+	color: #ffffff;
+	margin-top: -20px;
+	font-weight: bold;
+}
+
+#newsletterContainer{
+	background-color: #191733;
+	display: grid;
+	border-top: 3px solid black;
+	grid-template-columns: 2fr 1fr 1fr;
+}
+
+#newsletterHeader{
+	color: #ffffff;
+	margin-left: 70px;
+	font-size: 18px;
+}
+
+#newsletterInput{
+	width: 100%;
+	height: 50%;
+	margin-top: 15px;
+}
+
+#newsletterButton{
+	width: 60%;
+	height: 40%;
+	margin-top: 20px;
+	margin-left: 10px;
+	border-radius: 5px;
+	border: 1px solid #191733;
+	background-color: #970519;
+	cursor: pointer;
+}
+
+#newsletterButton:hover {
+	width: 50%;
+	height: 50%;
+	margin-top: 18px;
+}
+
+#buttonText{
+	font-size: 100%;
+	font-weight: bold;
+	color: white;
+}
+
+#buttonText:hover {
+	color: #191733;
+}
+
+#container2{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-items: center;
+	overflow: hidden;
+}
+
+@media (max-width: 600px) {
+	#container2 {
+		display: block;
+	}
+	#box1 {
+		width: 100%;
+		text-align: center;
+	}
+	#box2 {
+		width: 100%;
+		text-align: center;
+	}
+	#box3 {
+		width: 100%;
+		text-align: center;
+	}
+}
+
+#imageBox1 {
+	width: 150px;
+	height: auto;
+	margin-left: 60px;
+}
+
+#headerBox1 {
+	text-align: center;
+}
+
+#imageBox2 {
+	width: 150px;
+	height: auto;
+	margin-left: 60px;
+}
+
+#headerBox2 {
+	text-align: center;
+}
+
+#imageBox3 {
+	width: 140px;
+	height: auto;
+	margin-left: 60px;
+	margin-top: -10px;
+}
+
+#headerBox3 {
+	text-align: center;
+}
+
+#footerButton {
+	width: 100%;
+	background-color: #970519;
+	border: none;
+	height: 30px;
+}
+#footerText {
+	margin-top: 10px;
+	font-size: 18px;
+	color: #ffffff;
+	font-weight: bold;
+}

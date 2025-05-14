@@ -1,0 +1,201 @@
+body{
+	background-color: #e5af89;
+}
+
+#firstImage{
+	width: 1.5%;
+	height: auto;
+	position: relative;
+	top: 9.0vh;
+	left: 22vw;
+}
+
+#sixthImage{
+	width: 1.5%;
+	height: auto;
+	position: relative;
+	top: 19vh;
+	left: 21vw;
+}
+
+#mainBody{
+	width: 75vw;
+	height: 85vh;
+	background-color: white;
+	margin-left: 11vw;
+	margin-top: 4vh;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+#secondImage{
+	width: 40vw;
+	height: 45vh;
+	position: absolute;
+	left: 48vw;
+	top: 12vh;
+}
+
+#thirdImage{
+	width: 13vw;
+	height: 18vh;
+	position: relative;
+	left: 61.5vw;
+	top: 40vh;
+}
+
+#fourthImage{
+	width: 13vw;
+	height: 18vh;
+	position: relative;
+	left: 34.5vw;
+	top: 40vh;
+}
+
+#fifthImage{
+	width: 13vw;
+	height: 18vh;
+	position: relative;
+	left: 7.5vw;
+	top: 40vh;
+}
+
+#seventhImage{
+	width: 13vw;
+	height: 18vh;
+	position: relative;
+	left: 7.8vw;
+	top: 59vh;
+}
+
+#firstLabel{
+	position: relative;
+	top: 2vh;
+	font-weight: bold;
+	font-family: Georgia, serif;
+
+}
+
+#firstInput{
+	position: absolute;
+	top: 15vh;
+	left: 13.5vw;
+	padding: 8px 200px 8px 5px;
+	background-color: #eaeaea;
+	border-radius: 5px;
+	border: none;
+}
+
+#secondLabel{
+	position: relative;
+	top: 13vh;
+	font-weight: bold;
+	font-family: Georgia, serif;
+
+}
+
+#secondInput{
+	position: absolute;
+	top: 29vh;
+	left: 13.5vw;
+	padding: 8px 200px 8px 5px;
+	background-color: #eaeaea;
+	border-radius: 5px;
+	border: none;
+}
+
+#thirdLabel{
+	position: relative;
+	top: 30vh;
+	font-weight: bold;
+	font-family: Georgia, serif;
+
+}
+
+#thirdInput{
+	position: absolute;
+	top: 50vh;
+	left: 13.5vw;
+	padding: 10px 30px;
+}
+
+#fourthLabel{
+	position: relative;
+	top: 30vh;
+	left: 16.5vw;
+	font-weight: bold;
+	font-family: Georgia, serif;
+
+}
+
+#fourthInput{
+	position: absolute;
+	top: 51vh;
+	left: 35vw;
+	padding: 10px 30px;
+}
+
+#firstButton{
+	position: absolute;
+	bottom: 10vh;
+	font-size: 18px;
+	padding: 10px 130px;
+	background-color: #d2860f;
+	border: none;
+	border-radius: 10px;
+}
+
+#eighthImage{
+	width: 2%;
+	height: auto;
+	position: relative;
+	top: 18.0vh;
+	left: 18vw;
+}
+
+#firstHeader{
+	font-family: Georgia, serif;
+	position: absolute;
+	left: 72vw;
+	top: 44vh;
+}
+
+#firstParagraph{
+	font-family: Georgia, serif;
+	position: absolute;
+	left: 72vw;
+	top: 48vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

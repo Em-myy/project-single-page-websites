@@ -1,0 +1,146 @@
+body{
+	background-color: #e9e2d8;
+	margin: 0;
+}
+
+#first-image{
+	height: 529px;
+	width: 500px;
+}
+
+#first-header{
+	position: absolute;
+	top: 50px;
+	left: 30px;
+	font-size: 40px;
+}
+
+#first-paragraph{
+	position: absolute;
+	left: 30px;
+	top: 120px;
+}
+
+#second-paragraph{
+	position: absolute;
+	left: 30px;
+	top: 140px;
+}
+
+#third-paragraph{
+	position: absolute;
+	left: 30px;
+	top: 160px;
+}
+
+#second-image{
+	height: 350px;
+	width: 350px;
+	position: absolute;
+	top: 130px;
+	border-radius: 20px;
+	right: 820px;
+}
+
+#second-header{
+	position: absolute;
+	top: 260px;
+	left: 50px;
+	font-size: 15px;
+	color: white;
+}
+
+#fourth-paragraph{
+	position: absolute;
+	top: 295px;
+	left: 50px;
+	font-size: 15px;
+	color: white;
+}
+
+#form-group{
+	height: 480px;
+	width: 400px;
+	left: 700px;
+	top: 30px;
+	background-color: white;
+	position: absolute;
+	border-radius: 30px;
+	padding: 0 0 0 20px;
+}
+
+#name{
+	border-radius: 6px;
+	border: 1px solid grey;
+	padding: 10px 200px 10px 5px;
+	text-transform: capitalize;
+	margin: 0 0 20px 0;
+}
+
+#email{
+	border-radius: 6px;
+	border: 1px solid grey;
+	padding: 10px 200px 10px 5px;
+	margin: 0 0 20px 0;
+}
+
+#phone{
+	border-radius: 6px;
+	border: 1px solid grey;
+	padding: 10px 200px 10px 5px;
+	text-transform: capitalize;
+	margin: 0 0 20px 0;
+}
+
+#fourth-header{
+	bottom: 20px;
+	position: relative;
+	padding-bottom: 20px;
+}
+
+#firstCheckbox{
+	position: relative;
+	bottom: 50px;
+	cursor: pointer;
+}
+
+#first-label{
+	position: relative;
+	bottom: 52px;
+}
+
+#secondCheckbox{
+	position: relative;
+	bottom: 50px;
+	left: 30px;
+	cursor: pointer;
+}
+
+#second-label{
+	position: relative;
+	bottom: 52px;
+	left: 30px;
+}
+
+#message{
+	text-transform: capitalize;
+	width: 360px;
+	height: 90px;
+	font-family: Georgia, serif;
+	border-radius: 10px;
+	position: relative;
+	bottom: 40px;
+	resize: none;
+}
+
+#submit-button{
+	position: relative;
+	bottom: 5px;
+	left: 10px;
+	padding: 10px 160px 10px 160px;
+	background-color: red;
+	color: white;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+}

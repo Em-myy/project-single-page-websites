@@ -1,0 +1,250 @@
+body {
+	margin: 30px 80px 80px 80px;
+}
+
+#mainBodyContainer {
+	display: grid;
+	grid-template-columns: 1fr 1fr 3fr;
+	grid-column-gap: 20px;
+}
+
+#imageContainer {
+	background-image: url("../images/image2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+	width: 380px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+#imageContainerOne {
+	background-image: url("../images/image2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 80px;
+	width: 70px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	opacity: 0.4;
+	cursor: pointer;
+}
+
+#imageContainerOne:hover{
+	border: 2px solid blue;
+	opacity: 1;
+}
+
+#imageContainerTwo {
+	background-image: url("../images/image2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 80px;
+	width: 70px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	opacity: 0.4;
+	cursor: pointer;
+}
+
+#imageContainerTwo:hover{
+	border: 2px solid blue;
+	opacity: 1;
+}
+
+#imageContainerThree {
+	background-image: url("../images/image2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 80px;
+	width: 70px;
+	border-radius: 10px;
+	opacity: 0.4;
+	cursor: pointer;
+}
+
+#imageContainerThree:hover{
+	border: 2px solid blue;
+	opacity: 1;
+}
+
+#foregroundImage {
+	height: 80%;
+	width: 70%;
+	margin: 40px 0 0 50px;
+}
+
+#foregroundImageOne {
+	height: 80%;
+	width: 70%;
+	margin: 10px 0 0 10px;
+}
+
+#foregroundImageTwo {
+	height: 80%;
+	width: 70%;
+	margin: 10px 0 0 10px;
+}
+
+#foregroundImageThree {
+	height: 80%;
+	width: 70%;
+	margin: 10px 0 0 10px;
+}
+
+@media (max-width: 800px) {
+	body {
+		margin-left: 30px;
+	}
+	#mainBodyContainer {
+		display: grid;
+		grid-template-columns: 3fr;
+	}
+	#secondaryBodyContainer1 {
+		text-align: center;
+		width: 100%;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		max-width: 70%;
+		grid-column-gap: 60px;
+	}
+	#secondaryBodyContainer2 {
+		text-align: center;
+		width: 100%;
+	}
+	#secondaryBodyContainer3 {
+		width: 100%;
+	}
+	#container1{
+		grid-column-gap: 20px;
+	}
+}
+
+#secondaryBodyContainer3 {
+	display: block;
+}
+
+
+.firstParagraph {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: blue;
+}
+
+.mainHeader {
+	font-family: "Roboto Slab", serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 40px;
+	margin-top: -10px;
+}
+
+.secondaryHeader {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #7d7a7c;
+	margin-top: -20px;
+}
+
+#container1 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-bottom: 20px;
+}
+
+.amount {
+	font-family: "Roboto Slab", serif;
+	margin-top: -10px;
+}
+
+.amountButton {
+	background-color: #37b0f5;
+	border: none;
+	border-radius: 5px;
+	color: #210cba;
+	height: 30px;
+	width: 50px;
+	margin-left: -15px;
+	cursor: pointer;
+}
+
+.thirdHeader {
+	margin-top: -40px;
+	font-family: "Roboto Slab", serif;
+	text-decoration: line-through;
+	color: #7d7a7c;
+	opacity: 0.4;
+}
+
+.fourthHeader {
+	font-family: "Roboto Slab", serif;
+}
+
+.buttons {
+	background-color: white;
+	border: none;
+	cursor: pointer;
+	position: relative;
+	bottom: 15px;
+	right: 5px;
+}
+
+.buttons:hover {
+	padding: 4px 8px;
+	color: white;
+	background-color: black;
+}
+
+.buttonsText {
+	font-family: "Roboto Slab", serif;
+	font-size: 18px;
+}
+
+#container2 {
+	display: grid;
+}
+
+.secondaryButton {
+	display: block;
+	background-color: blue;
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 5px;
+}
+
+.secondaryButton:hover {
+	background-color: #37b0f5;
+}
+
+a {
+	text-decoration: none;
+}
+
+.secondaryButtonText {
+	font-family: "Roboto Slab", serif;
+	font-size: 17px;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
